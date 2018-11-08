@@ -1,0 +1,29 @@
+{
+  "name": "merceslab/spreadsheet-client",
+  "description": "Client abstraction for interaction with Google online spreadsheets",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.1.3",
+    "google/apiclient": "^2.2"
+  },
+  "authors": [
+    {
+      "name": "Guillaume Manen",
+      "email": "g.manen@merces-lab.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MercesLab\\Component\\SpreadsheetClient\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4"
+  }
+}
